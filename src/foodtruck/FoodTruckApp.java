@@ -11,7 +11,7 @@ public class FoodTruckApp {
 		System.out.println("Hello and welcome to the first annual Food Truck Challenge");
 
 		System.out.println(
-				"As you sample from the variety of food trucks available, you will be asked to input their name,"
+				"\nAs you sample from the variety of food trucks available, you will be asked to input their name,"
 				+ " type of food offered and the rating you would give on a scale of 1-5");
 
 		FoodTruck truckArray[] = new FoodTruck[5];
@@ -19,7 +19,9 @@ public class FoodTruckApp {
 		for (int i = 0; i < truckArray.length; i++) {
 			
 			System.out.println("Please enter the name of a food truck you sampled at.");
+			System.out.println("After at least one truck as been entered; if you are done enter quit to continue the app.");
 			String foodName = scanner.nextLine();
+			
 			if (foodName.equalsIgnoreCase("quit")) {
 				break;
 
@@ -53,7 +55,7 @@ public class FoodTruckApp {
 				
 				
 				
-				
+				//System.out.println("\uD83C\uDFC6");
 			
 		
 		boolean keepLooping = true;
@@ -62,7 +64,7 @@ public class FoodTruckApp {
 			System.out.println("\n\n\n-------------------------------------------------");
 			System.out.println("-             1. List all Food Trucks           -");
 			System.out.println("-         2. Average rating of Food Trucks      -");
-			System.out.println("-             3. Display the Winner!            -");
+			System.out.println("-             3. Display the Winner! " + "\uD83C\uDFC6" + "         -");
 			System.out.println("-                  4. Quit                      -");
 			System.out.println("-------------------------------------------------\n");
 
@@ -117,7 +119,7 @@ public class FoodTruckApp {
 						}
 
 					}
-					System.out.println(truckArray[counter].toString());
+					System.out.println("\uD83C\uDFC6" +"\n" + truckArray[counter].toString());
 
 					break;
 
@@ -132,7 +134,6 @@ public class FoodTruckApp {
 				}
 
 			}
-
 		}
 
 		scanner.close();
