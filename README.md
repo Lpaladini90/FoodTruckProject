@@ -79,16 +79,16 @@ Users will input and rate a list of food trucks, then view the average rating an
 
   - If option 2 on the menu was chosen, it will enter case 2 on the switch.
 
-      - In case 2, the app will display a message stating: The average rating of all food trucks in the challenge are:
+        - In case 2, the app will display a message stating: The average rating of all food trucks in the challenge are:
 
-        - To display this information, I used another for loop, identical to to case 1, also accounting for the same
-            null error that could arise.
+          - To display this information, I used another for loop, identical to to case 1, also accounting for the same
+              null error that could arise.
 
-        - Like the last two cases, I first accounted for any null issues that may come up.
+            - Like the last two cases, I first accounted for any null issues that may come up.
 
-        - The object of this case is to display the average rating of all food trucks combined. To do this I created a
-            formula that collected the sum of the first truck in the array, added it to the second truck, which in
-            turn created a new sum and continued until it went through all of the food trucks that were entered.
+            - The object of this case is to display the average rating of all food trucks combined. To do this I created a
+              formula that collected the sum of the first truck in the array, added it to the second truck, which in
+              turn created a new sum and continued until it went through all of the food trucks that were entered.
 
               - Once the sum was calculated, I need to divide the sum by the number of food trucks that were entered. To
                   do this I added a counter to keep track of how many food trucks were in the array.
@@ -98,8 +98,8 @@ Users will input and rate a list of food trucks, then view the average rating an
 
   - If option 3 on the menu was chosen, it will enter case 3 on the switch.
 
-        - In case 3 the goal was to display all the information of the highest rated food truck; including name, type,
-            rating, and the numeric ID that was automatically generated to the truck
+          - In case 3 the goal was to display all the information of the highest rated food truck; including name, type,
+              rating, and the numeric ID that was automatically generated to the truck
 
             - In order to display this information, I first had to figure out which truck had the highest rating.
 
@@ -136,9 +136,9 @@ Users will input and rate a list of food trucks, then view the average rating an
               The while loop was now reassigned to false, breaking the loop and ending the program.
 
 
-        - I did account for the possibility that user may enter a number outside of the menu.
+  - I did account for the possibility that user may enter a number outside of the menu.
 
-          - In this case a statement was presented notifying them to choose another number in the menu.
+    - In this case a statement was presented notifying them to choose another number in the menu.
 
 
 
