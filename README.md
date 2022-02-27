@@ -61,7 +61,7 @@ Users will input and rate a list of food trucks, then view the average rating an
     see which information they want displayed. If not then the screen will prompt and statement letting them know
     they have chosen and invalid number and to pick  a valid number 1-4.
 
-    - If option 1 on the menu was chosen, it will enter case 1 on the switch.
+  - If option 1 on the menu was chosen, it will enter case 1 on the switch.
 
         - In case 1, The app will display a message saying: here is a list of the food trucks that they have entered.
 
@@ -77,7 +77,7 @@ Users will input and rate a list of food trucks, then view the average rating an
               the trucks ID, Name, Type of food, and the Rating. As the array continued in the for loop, incrementing
               as it runs, each truck that was entered is what will be displayed along with the corresponding info.
 
-    - If option 2 on the menu was chosen, it will enter case 2 on the switch.
+  - If option 2 on the menu was chosen, it will enter case 2 on the switch.
 
       - In case 2, the app will display a message stating: The average rating of all food trucks in the challenge are:
 
@@ -96,7 +96,7 @@ Users will input and rate a list of food trucks, then view the average rating an
               - To now find the average, I divided the sum by the count(amount of food trucks in the array). This gave
                   me the total average of all the ratings and I was able to display that number to the user.
 
-      - If option 3 on the menu was chosen, it will enter case 3 on the switch.
+  - If option 3 on the menu was chosen, it will enter case 3 on the switch.
 
         - In case 3 the goal was to display all the information of the highest rated food truck; including name, type,
             rating, and the numeric ID that was automatically generated to the truck
@@ -130,7 +130,7 @@ Users will input and rate a list of food trucks, then view the average rating an
                           They get a :trophy:
 
 
-        - If option 4 was chosen from the menu, it will enter case 4 in the switch.
+  - If option 4 was chosen from the menu, it will enter case 4 in the switch.
 
           - In this case, the app printed a statement saying thanks for participating.
               The while loop was now reassigned to false, breaking the loop and ending the program.
