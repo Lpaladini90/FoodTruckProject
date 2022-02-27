@@ -3,6 +3,8 @@ package foodtruck;
 public class FoodTruck {
 
 	//static is changeable. it exists outside of an instance
+	
+	//create new data types
 	private static int nextTruckId = 0;
 	private int  idNumber;
 	private String name="";
@@ -64,7 +66,7 @@ public class FoodTruck {
 	
 	
 	public String toString() {
-		String output = "Truck ID: " +  idNumber + "\nName: " + name + "\nType of food served: " + type + "\nRating: " + rating;
+		String output = "Truck ID: " +  idNumber + "\nName: " + name + "\nType: " + type + "\nRating: " + rating;
 	return output;
 	
 	}
