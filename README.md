@@ -40,20 +40,20 @@ Users will input and rate a list of food trucks, then view the average rating an
   - The menu displays a total of 4 options to the user.
 
         - The first option will display a list of all the food trucks in the challenge and all of its properties
-            associated with the trucks, but only pertaining to the amount of food trucks entered above. :truck:
+            associated with the trucks, but only pertaining to the amount of food trucks entered above.
 
             - This includes the following: Name, Type, Rating (given by the user) and the
                 special numeric Id that the program as automatically assigned to each food truck.
                 ( This ID was not a user input but instead a behind the scene piece of code that is assigned
                 as each truck is created.)
 
-        - The second option in the menu will display the average rating of all the food trucks entered.:truck:
+        - The second option in the menu will display the average rating of all the food trucks entered.
 
         - The third option will display the food truck that has the highest rating of all, therefor being crowned as the
-            winner of the challenge, :trophy: and will display all of the properties of that specific food truck and non of
+            winner of the challenge, will display all of the properties of that specific food truck and non of
             the other contestants.
 
-        - The fourth option is a simple quit button, allowing the user to leave the app completely.:truck:
+        - The fourth option is a simple quit button, allowing the user to leave the app completely.
 
 - In order to have the user enter the appropriate menu option they are wanting displayed, I created a switch.
 
@@ -96,7 +96,7 @@ Users will input and rate a list of food trucks, then view the average rating an
               - To now find the average, I divided the sum by the count(amount of food trucks in the array). This gave
                   me the total average of all the ratings and I was able to display that number to the user.
 
-  - If option 3 on the menu was chosen, it will enter case 3 on the switch.
+  - If option 3 on the menu was chosen, it will enter case 3 on the switch. :trophy:
 
           - In case 3 the goal was to display all the information of the highest rated food truck; including name, type,
               rating, and the numeric ID that was automatically generated to the truck
@@ -127,7 +127,7 @@ Users will input and rate a list of food trucks, then view the average rating an
                       automatically assigned numeric ID.
 
                       - This food truck with the highest truck rating was the winner of the challenge.
-                          They get a :trophy:
+                          They get a trophy.
 
 
   - If option 4 was chosen from the menu, it will enter case 4 in the switch.
