@@ -1,6 +1,7 @@
 ####                         :truck:              **FoodTruckProject**                 :truck:                              ####
 
 
+
 ##                                              **Description Overview**                                                      ##
 
 
@@ -8,6 +9,19 @@ Users will input and rate a list of food trucks, then view the average rating an
 
 
 ##                                                    **Structure**                                                           ##  
+
+- There are two classes to be used in order to make this app work properly.
+
+  - A main class to run the program app and another to call upon constructed methods that will display information in the
+      main class.
+
+
+      - The FoodTruck class carries the data types needed to make the app function. This includes the constructors used to
+          display information as well as a method to increment the food truck numeric id that is automatically set without
+          the users knowledge.
+
+
+- The main class holds all the meat of the app.
 
 - The app starts with a message from the app, welcoming the user to the first annual food truck challenger. Another print
     out explains what the user is about to do in the app and the rules that apply.
